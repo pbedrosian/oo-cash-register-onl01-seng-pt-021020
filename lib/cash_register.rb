@@ -6,6 +6,7 @@ class CashRegister
   def initialize(discount_amount = 0) #accepts a disocunt but defaults
     @discount = discount_amount
     @total = 0
+    @items = []
   end
 
   def total=(num) #setter methhod
@@ -28,6 +29,10 @@ class CashRegister
   else
     "There is no discount to apply."
   end
+  end
+
+  def item
+
   end
 
 end
