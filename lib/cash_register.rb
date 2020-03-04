@@ -8,7 +8,7 @@ class CashRegister
     @total = 0
   end
 
-  def total= (num) #setter methhod
+  def total=(num) #setter methhod
     @total = num
   end
 
