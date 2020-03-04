@@ -6,6 +6,6 @@ class CashRegister
   end
 
   def self.add_item(title, price)
-    @total << price
+    self.total << price
   end
 end
