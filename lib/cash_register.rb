@@ -1,11 +1,19 @@
 class CashRegister
 
   attr_reader :discountm #gets the discount
-  attr_accessor :total, :price
+  attr_accessor :price
 
-  def initialize(discount_amount = 0)
+  def initialize(discount_amount = 0) #accepts a disocunt but defaults
     @discount = discount_amount
     @total = 0
+  end
+
+  def total=(num) #setter methhod
+    @total = num
+  end
+
+  def total
+    @total
   end
 
   def add_item(title, price)
