@@ -17,7 +17,7 @@ class CashRegister
   end
 
   def add_item(title, price)
-    @total << price.to_i
+    @total + price
   end
 
 end
