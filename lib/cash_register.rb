@@ -17,7 +17,7 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = 1) #has at least one item
-    @total += (price * quantity)
+    @total += (price * quantity) #multiplies the price to quantity and adds it == to total 
   end
 
 end
