@@ -39,7 +39,9 @@ class CashRegister
   end
 
   def void_last_transaction
+    #subtract last added tiem
     @items.pop
+    @total -= @item_count
   end
 
 end
