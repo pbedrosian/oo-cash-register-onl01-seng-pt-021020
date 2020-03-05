@@ -40,7 +40,7 @@ class CashRegister
 
   def void_last_transaction
     #subtract last added tiem
-    @items.pop
+    @items.pop #remove last item from array / cart
     @total -= @item_count
   end
 
